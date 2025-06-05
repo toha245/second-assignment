@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+    background-color: black;
+    color: aliceblue;
+}
+
+/* font size */
+
+.font-14{
+    font-size: 14px;
+}
+
+.font-16{
+    font-size: 16px;
+}
+
+.font-18{
+    font-size: 18px;
+}
+
+.font-48{
+    font-size: 48px;
+}
+
+
+/* font weight */
+
+.medium{
+    font-weight: 500;
+}
+
+.semi-bold{
+    font-weight: 600;
+}
+
+.black{
+    font-weight: 900;
+}
+
+/* header section related styles */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.left-text{
+    font-size: 36px;
+    font-weight: 800;
+    color: #E6533C;
+}
+
+.nav-list button{
+    font-size: 18px;
+    background-color: #E6533C;
+    color: #FFFFFF;
+    padding: 8px 20px 8px 20px;
+    border: none;
+    border-radius: 46px;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+    font-size: 18px;
+}
+
+.nav-list{
+    display: flex;
+    gap: 45px;
+    align-items: center;
+}
