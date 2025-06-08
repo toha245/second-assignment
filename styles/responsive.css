@@ -1,6 +1,6 @@
 @media screen and (max-width: 576px) {
     body{
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
     }
     
@@ -221,15 +221,37 @@
     font-weight: 400;
 }
 
+/* habit section related styles */
+
+.change{
+    font-size: 30px;
+}
+.image-section{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+    margin: 0 auto;
+
+}
+
+.image-section .card-1{
+    text-align: center;
+    width: 100%;
+}
+.card-1 .img-container{
+    margin-bottom: 30px;
+    width: 100%;
+}
+
 }
 
 
-
-@media screen and (min-width: 576px) and (max-width: 992px) {
+@media screen and (min-width: 577px) and (max-width: 991px) {
     /* header section related styles */
 
     body{
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
     }
 header{
@@ -461,6 +483,25 @@ header{
     font-weight: 400;
 }
 
+/* habit section related styles */
+.image-section{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin: 0 auto;
+
+}
+
+.image-section .card-1{
+    text-align: center;
+    width: 100%;
+
+}
+.card-1 .img-container{
+    margin-bottom: 30px;
+    width: 100%;
+}
 
 }
 
@@ -468,7 +509,7 @@ header{
     /* header section related styles */
 
     body{
-        width: 95%;
+        width: 90%;
         margin: 0 auto;
     }
 header{
@@ -703,6 +744,45 @@ header{
     font-family: Inter;
     font-size: 1rem;
     font-weight: 400;
+}
+
+/* habit section related styles */
+
+
+.text-section{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.believe{
+    width: 600px;
+    text-align: center;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.image-section{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    margin: 0 auto;
+
+}
+
+.image-section .card-1{
+    text-align: center;
+    width: 100%;
+
+}
+.card-1 .img-container{
+    margin-bottom: 30px;
+    width: 100%;
+}
+
 }
 
 }
