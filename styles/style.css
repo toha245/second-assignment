@@ -542,13 +542,181 @@ header{
 
 /* bmi section related styles */
 
+.bmi-section{
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    padding: 30px;
+    padding-bottom: 50px;
+    background-color: rgb(34, 34, 34);
+    border: 2px solid cornflowerblue;
+}
+
+.bmi-title-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.bmi-title-section h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #FFFFFF;
+    text-align: left;
+    width: 600px;
+    margin-bottom: 14px;
+}
+
+.bmi-title-section p{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.50);
+    text-align: left;
+    width: 600px;
+}
+
+
+.bmi-container{
+    display: flex;
+    gap: 180px;
+    justify-content: center;
+}
+
+.bmi-container h3{
+    font-size: 28px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+
+.bmi-container p, thead td{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.bmi-container p, tbody td{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 10px;
+}
+
+td{
+    
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+table{
+    width: 310px;
+    border-collapse: collapse;
+    margin-top: 52px;
+}
+
+table td{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 18px;
+}
+
+::placeholder{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+.bmi-section input, select{
+    color: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+}
+
+.bmi-section button{
+    margin-top: 40px;
+    border: none;
+    padding: 16px 60px 16px 60px;
+    border-radius: 42px;
+    color: rgb(255, 255, 255);
+    background: rgb(230, 83, 60);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+.bmi-second-part p{
+    margin-top: 20px;
+    margin-bottom: 34px;
+}
+
+.bmi-second-part .first-two-input input{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 18px;
+    border-radius: 8px;
+}
+
+.bmi-second-part .first-two-input{
+    width: 100%;
+    display: flex;
+    gap: 2%;
+    margin-bottom: 12px;
+}
+
+#first{
+    width: 48%;
+}
+
+#second{
+    width: 48%;
+}
+
+
+.bmi-second-part .second-two-input input{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 18px;
+    border-radius: 8px;
+}
+
+.bmi-second-part .second-two-input{
+    width: 100%;
+    display: flex;
+    gap: 2%;    
+}
+
+#second-1{
+    width: 46%;
+}
+
+select{
+    width: 49%;
+}
+
+.bmi-second-part .second-two-input select{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 18px;
+    border-radius: 8px;
+    border-radius: 8px;
+}
+
+.bmi-second-part .third-option{
+    width: 100%;
+    margin-top: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    border-radius: 8px;
+}
 
 
 /* meet section related styles */
 
 .meet-section{
     max-width: 1200px;
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     padding: 30px;
     border-radius: 18px;
